@@ -1,9 +1,17 @@
 # 📢 local-echo [![Travis (.org)](https://img.shields.io/travis/wavesoft/local-echo.svg)](https://travis-ci.org/wavesoft/local-echo) [![Try it in codepen.io](https://img.shields.io/badge/Try%20it-codepen.io-blue.svg)](https://codepen.io/anon/pen/qMYjGZ?editors=0010)
 
-
 > A fully functional local echo controller for xterm.js
 
 You will be surprised how difficult it is to implement a fully functional local-echo controller for [xterm.js](https://github.com/xtermjs/xterm.js) (or any other terminal emulator). This project takes this burden off your hands.
+
+## Fork note
+
+I forked this repository to fix two issues
+
+1. Fix the prompt length calculation when there are ansi escape sequences involved (Pulled from https://github.com/varGeneric/local-echo/commit/e9c41e53400db966f71a07a3945fe55d0299c8f4)
+2. Fix command autocompletion inserting extra tokens (https://github.com/mauricelam/local-echo/commit/2e75a657dc02a4284b6a8072d5c390e3b9fa080b)
+
+This package is not published on NPM, but can be used via a [GitHub URL in `package.json`](https://github.com/mauricelam/local-echo/commit/2e75a657dc02a4284b6a8072d5c390e3b9fa080b)
 
 ### Features
 
