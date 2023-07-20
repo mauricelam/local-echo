@@ -11,7 +11,7 @@ I forked this repository to fix two issues
 1. Fix the prompt length calculation when there are ansi escape sequences involved (Pulled from https://github.com/varGeneric/local-echo/commit/e9c41e53400db966f71a07a3945fe55d0299c8f4)
 2. Fix command autocompletion inserting extra tokens (https://github.com/mauricelam/local-echo/commit/2e75a657dc02a4284b6a8072d5c390e3b9fa080b)
 
-This package is not published on NPM, but can be used via a [GitHub URL in `package.json`](https://github.com/mauricelam/local-echo/commit/2e75a657dc02a4284b6a8072d5c390e3b9fa080b)
+This package is not published on NPM, but can be used via a [GitHub URL in `package.json`](https://docs.npmjs.com/cli/v9/configuring-npm/package-json#github-urls)
 
 ### Features
 
